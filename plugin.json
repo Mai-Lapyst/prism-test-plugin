@@ -1,0 +1,24 @@
+{
+	"formatVersion": 1,
+	"displayName": "Test plugin",
+	"description": "A plugin that adds a catpack for test purposes",
+	"homepage": "https://github.com/Mai-Lapyst/prism-test-plugin",
+	"issues": "https://github.com/Mai-Lapyst/prism-test-plugin/issues",
+	"icon": "./icon.png",
+	"license": "GPL-3.0-only",
+	"authors": [
+		"Mai-Lapyst"
+	],
+	"natives": {
+		"osx": "",
+		"win32": "",
+		"win64": "",
+		"linux32": "",
+		"linux64": "./libtestplugin.so"
+	},
+	"contributions": {
+		"cat_packs": [
+			"./cats/my_cute_cat"
+		]
+	}
+}
