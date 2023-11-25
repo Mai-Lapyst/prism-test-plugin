@@ -12,4 +12,5 @@ class TestPlugin : public QObject, PluginInterface {
 public:
     void onEnable(const PluginInstance& plugin) override;
     void onDisable(const PluginInstance& plugin) override;
+    bool requiresRestart() override { return false; }
 };
