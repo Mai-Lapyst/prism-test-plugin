@@ -1,6 +1,7 @@
 {
 	"formatVersion": 1,
 	"displayName": "Test plugin",
+	"version": "1.0.0",
 	"description": "A plugin that adds a catpack for test purposes",
 	"homepage": "https://github.com/Mai-Lapyst/prism-test-plugin",
 	"issues": "https://github.com/Mai-Lapyst/prism-test-plugin/issues",
