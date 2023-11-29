@@ -10,11 +10,13 @@
 		"Mai-Lapyst"
 	],
 	"natives": {
-		"osx": "",
-		"win32": "",
-		"win64": "",
-		"linux32": "",
-		"linux64": "./libtestplugin.so"
+		"qt6": {
+			"osx": "",
+			"win32": "",
+			"win64": "",
+			"linux32": "",
+			"linux64": "./libtestplugin.so"
+		}
 	},
 	"contributions": {
 		"cat_packs": [
